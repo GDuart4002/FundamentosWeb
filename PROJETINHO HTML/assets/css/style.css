@@ -1,0 +1,35 @@
+body{
+    margin: 0%;
+}
+
+h1{
+    color: rgba(255, 0, 0, 0.952);
+    margin: 0%;
+}
+
+.text{
+    color: darkblue;
+    font-size: 30px;
+    margin: 0%;
+}
+
+#idtext{
+    font-family: 'Comic Sans MS';
+}
+
+nav{
+    background-color: black;
+}
+
+.textmenu:hover{
+    color: darkgreen;
+}
+a{
+    color: antiquewhite;
+    margin-left: 30px;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
