@@ -1,35 +1,96 @@
-body{
+body {
     margin: 0%;
 }
 
-h1{
-    color: rgba(255, 0, 0, 0.952);
+h1 {
+    color: green;
     margin: 0%;
 }
 
-.text{
-    color: darkblue;
-    font-size: 30px;
+.text {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
     margin: 0%;
+    text-align: center;
 }
 
-#idtext{
+#idtext {
     font-family: 'Comic Sans MS';
 }
 
-nav{
-    background-color: black;
+.text-h {
+    text-align: center;
+    font-size: 50px;
+    margin: 0%;
 }
 
-.textmenu:hover{
+nav {
+    background-color: white;
+}
+
+.textmenu:hover {
     color: darkgreen;
 }
-a{
-    color: antiquewhite;
+
+a {
+    color: black;
     margin-left: 30px;
+    text-decoration: none;
+    font-family: 'Comic Sans MS';
+    font-size: 20px;
 }
 
-ul{
+ul {
     display: flex;
     list-style: none;
+}
+
+.container {
+    display: flex;
+    background-color: white;
+    justify-content: center;
+}
+
+.container>div {
+    background-color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+.textcont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 0%;
+}
+
+.tm {
+    width: 200px;
+    height: 100px;
+}
+
+.tm-social {
+    width: 20px;
+    height: 20px;
+    margin: 0%;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.margin {
+    margin: 20px;
+}
+
+.coluna {
+    flex-direction: column;
+}
+
+.center{
+    justify-content: center;
+    text-align: center;
 }
